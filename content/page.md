@@ -70,7 +70,8 @@ Aquí irá el material del curso, con algunos enlaces...
 
 1. Lectura 1 
 2. Lectura 2  
-3. Lectura 3 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/blob/master/Lecturas/Lecture3.pdf')">Download</button>
+3. Lectura 3 
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/Lecture3.pdf')">Descargar</button>
             
 ---------------------
 
