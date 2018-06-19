@@ -68,9 +68,9 @@ Aquí irá el material del curso, con algunos enlaces...
 
 ## Lecturas preliminares
 
-1. Lectura 1
+1. Lectura 1 
 2. Lectura 2  
-3. Lectura 3
+3. [Lectura 3](https://github.com/migariane/CrashCourseCausalInference/tree/master/lectures/Lecture3.pdf)
 
 ---------------------
 
