@@ -17,15 +17,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/page/</guid>
-      <description>code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/page/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/page/</guid>
       <description>Curso de Introducción a la Inferencia Causal en Epidemiología XX-YY Octubre, Escuela Andaluza de Salud Pública, Granada Descripción del curso El Curso de Introducción a la Inferencia Causal en Epidemiología está dirigido a estadísticos y epidemiólogos de la administración sanitaria interesados en la Inferencia Causal, con conocimientos en Estadística Aplicada a las Ciencias de la Salud y Epidemiología.
 Objetivos El objetivo general del curso es ofrecer una visión general de los nuevos métodos en epidemiología basados en el marco conceptual de las &amp;ldquo;Potential Outcomes&amp;rdquo; y las técnicas estadísticas utilizadas para evaluar la efectividad de intervenciones o tratamientos basada en datos observacionales.</description>
     </item>

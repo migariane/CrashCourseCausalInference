@@ -70,8 +70,8 @@ Aquí irá el material del curso, con algunos enlaces...
 
 1. Lectura 1 
 2. Lectura 2  
-3. [Lectura 3](content/lectures/Lecture3.pdf)
-
+3. Lectura 3 <button onclick="window.open('/Lecturas/Lecture3.pdf')">Download</button>
+            
 ---------------------
 
 # Profesores
