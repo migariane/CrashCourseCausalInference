@@ -70,7 +70,7 @@ Aquí irá el material del curso, con algunos enlaces...
 
 1. Lectura 1 
 2. Lectura 2  
-3. [Lectura 3](https://github.com/migariane/CrashCourseCausalInference/tree/master/lectures/Lecture3.pdf)
+3. [Lectura 3](content/lectures/Lecture3.pdf)
 
 ---------------------
 
