@@ -85,13 +85,13 @@ El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP).
 2. Presentación 2
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day1_2.pdf')">Descargar</button>
 ### Practicas (Lab)  
-2. Lab 2
+2. Lab 1
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Labs/Lab1.pdf')">Descargar</button>
 
 ## Día 2  
 
 ### Presentaciones  
-1. Presentación 2
+1. Presentación 3
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day2.pdf')">Descargar</button>
 
 ### Prácticas (Lab)  
