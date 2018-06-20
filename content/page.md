@@ -66,7 +66,7 @@ El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP).
 
 ## Programa del curso
 
-<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Programa/Programa.pdf')">Descarga aquí el programa del curso</button>
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Programa/programa.pdf')">Descarga aquí el programa del curso</button>
 
 ## Lecturas preliminares
 
