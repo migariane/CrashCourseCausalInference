@@ -56,7 +56,7 @@ El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP).
 
 ## Cómo llegar:
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.4212631460427!2d-3.5963263488661434!3d37.190222453247834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcdb20c77b63%3A0x8de42283942f9bcc!2sEscuela+Andaluza+de+Salud+P%C3%BAblica!5e0!3m2!1ses!2ses!4v1529391584616" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.4212631460427!2d-3.5963263488661434!3d37.190222453247834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcdb20c77b63%3A0x8de42283942f9bcc!2sEscuela+Andaluza+de+Salud+P%C3%BAblica!5e0!3m2!1ses!2ses!4v1529391584616" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
 
 ### [Cómo llegar a la EASP](http://www.easp.es/la-escuela/contacte-con-nosotros/como-llegar/) / [How to get to EASP (English)](https://www.easp.es/wp-content/uploads/2017/11/How-to-get-to-EASP.pdf)
 
@@ -64,15 +64,31 @@ El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP).
 
 # Material del curso
 
-Aquí irá el material del curso, con algunos enlaces...
+## Programa del curso
+
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Programa/Programa.pdf')">Descarga aquí el programa del curso</button>
 
 ## Lecturas preliminares
 
 1. Lectura 1 
-2. Lectura 2  
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/Lecture1.pdf')">Descargar</button>
+2. Lectura 2
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/Lecture2.pdf')">Descargar</button>
 3. Lectura 3 
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/Lecture3.pdf')">Descargar</button>
-            
+
+## Día 1
+
+### Presentaciones
+
+### Código
+
+## Día 2
+
+### Presentaciones
+
+### Código
+
 ---------------------
 
 # Profesores
@@ -125,6 +141,10 @@ Granada, Spain
 ### <img src="images/git.jpg" alt="git" style="width: 20px;"/> [@danielredondo](https://github.com/danielredondo)
 
 ### <img src="images/email.png" alt="email" style="width: 20px;"/>  *daniel.redondo.easp at juntadeandalucia.es*
+
+---------------------
+
+[<img src="/img/tw.png">](https://twitter.com/intent/tweet?text=Curso%20de%20Introduccion%20a%20la%20Inferencia%20Causal&url=http://ccci.netlify.com/&via=WATZILEI)
 
 ---------------------
 
