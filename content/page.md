@@ -79,21 +79,34 @@ El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP).
 
 ## Día 1
 
-### Presentaciones
+### Presentaciones  
+1. Presentación 1   
+2. Presentación 2    
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day1.pdf')">Descargar</button>
+### Practicas (Lab)  
+2. Lab 2  
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Labs/Lab1.pdf')">Descargar</button>
 
-### Código
+## Día 2  
 
-## Día 2
+### Presentaciones  
+1. Presentación 2   
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day2.pdf')">Descargar</button>
 
-### Presentaciones
+### Prácticas (Lab)  
+2. Lab 2   
 
-### Código
+## Recurso para aprender Stata    
+[Stata](https://www.stata.com/learn/)  
+
+## Recursos para aprender Stata  
+[R](https://www.tidyverse.org/learn/)  
 
 ---------------------
 
 # Profesores
 
-We are a team with a broad multidisciplinary background, leading cancer research in Spain and Europe.
+We are a team with a broad multidisciplinary background in social sciences, mathematics, biostatiscis and epidemiology, leading cancer research in Spain and Europe.
 
 We develop our work in the [**Granada Cancer Registry**](http://www.cancergranada.org), at the [**Andalusian School of Public Health**](http://www.easp.es/).
 
