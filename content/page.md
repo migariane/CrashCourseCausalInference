@@ -80,22 +80,22 @@ El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP).
 ## Día 1
 
 ### Presentaciones  
--. Presentación 1 
-<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day1_1.pdf')">Descargar</button>
--. Presentación 2
-<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day1_2.pdf')">Descargar</button>
+Presentación 1 
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day1_1.pdf')">Descargar</button>  
+Presentación 2
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day1_2.pdf')">Descargar</button>  
 ### Prácticas (Lab)    
--. Lab 1
+Lab 1
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Labs/Lab1.pdf')">Descargar</button>
 
 ## Día 2  
 
 ### Presentaciones  
--. Presentación 3
+Presentación 3
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day2.pdf')">Descargar</button>
 
 ### Prácticas (Lab)  
--. Lab 2   
+Lab 2   
 
 ## Recurso para aprender Stata    
 [Learning Stata](https://www.stata.com/learn/)  
