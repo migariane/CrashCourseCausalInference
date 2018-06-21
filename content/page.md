@@ -105,7 +105,7 @@ Lab 2
 [Learning Stata](https://www.stata.com/learn/)  
 
 ## Recursos para aprender R  
-[Learning R (Tydiverse world)](https://www.tidyverse.org/learn/)  
+[Learning R (Tidyverse world)](https://www.tidyverse.org/learn/)  
 
 ---------------------
 
