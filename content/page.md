@@ -70,15 +70,15 @@ El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP).
 
 ## Lecturas preliminares
 
-1. Lectura 1
+1. Lectura 1: A structural approach to selection bias
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/Lecture1.pdf')">Descargar</button>
-2. Lectura 2
+2. Lectura 2: The R package `daggity`
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/Lecture2.pdf')">Descargar</button>
-3. Lectura 3 
+3. Lectura 3: Causal models and learning from data
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/Lecture3.pdf')">Descargar</button>
 4. Extra 1: Tutorial Targeted Maximum Likelihood Estimation
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/TMLE-Tutorial-Luque2018.pdf')">Descargar</button>
-5. Extra 2: Inferencia Causal aplicada a Population-based Cancer Epidemiology 
+5. Extra 2: Inferencia Causal aplicada a Epidemiología poblacional del Cáncer
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/TMLE_Application_Luque2017.pdf')">Descargar</button>
 
 ## Día 1
@@ -91,6 +91,7 @@ Presentación 2
 ### Prácticas (Lab)    
 Lab 1
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Labs/Lab1.pdf')">Descargar</button>
+
 
 ## Día 2  
 
