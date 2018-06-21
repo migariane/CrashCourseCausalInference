@@ -76,6 +76,10 @@ El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP).
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/Lecture2.pdf')">Descargar</button>
 3. Lectura 3 
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/Lecture3.pdf')">Descargar</button>
+4. Extra 1: Tutorial Targeted Maximum Likelihood Estimation
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/TMLE-Tutorial-Luque2018.pdf')">Descargar</button>
+5. Extra 2: Inferencia Causal aplicada a Population-based Cancer Epidemiology 
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/TMLE_Application_Luque2017.pdf')">Descargar</button>
 
 ## Día 1
 
@@ -101,7 +105,7 @@ Lab 2
 [Learning Stata](https://www.stata.com/learn/)  
 
 ## Recursos para aprender R  
-[Learnig R (Tydiverse world)](https://www.tidyverse.org/learn/)  
+[Learning R (Tydiverse world)](https://www.tidyverse.org/learn/)  
 
 ---------------------
 
