@@ -2,7 +2,7 @@
 type: "onepage"
 ---
 # Curso de Introducción a la Inferencia Causal en Epidemiología
-### XX-YY Octubre, Escuela Andaluza de Salud Pública, Granada
+### 29-30 Octubre, Escuela Andaluza de Salud Pública, Granada
 
 ---------------------
 
