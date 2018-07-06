@@ -1,7 +1,7 @@
 baseurl         = "/"
 theme           = "sp-minimal"
 languageCode    = "en-us"
-title           = "Curso"
+title           = "Curso_IC"
 disqusShortname = ""
 paginate        = 5
 ignoreFiles     = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -17,7 +17,7 @@ ignoreFiles     = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   #"simple" or "original"
   themeStyle = "simple"
 
-  googleAnalytics = ""
+  googleAnalytics = "UA-121938065-1"
 
   name = ""
   description = "Miguel Ángel Luque Fernández <br> María José Sánchez Pérez <br> Miguel Rodríguez Barranco <br> Daniel Redondo Sánchez"
