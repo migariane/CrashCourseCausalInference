@@ -193,11 +193,12 @@ Granada, Spain
 
 ---------------------
 
-[<img src="/img/tw.png"  style = "width:200px;>](https://twitter.com/intent/tweet?text=Curso%20de%20Introduccion%20a%20la%20Inferencia%20Causal&url=http://ccci.netlify.com/&via=WATZILEI)
+[<img src="/img/tw.png"  style = "width:40%;">](https://twitter.com/intent/tweet?text=Curso%20de%20Introduccion%20a%20la%20Inferencia%20Causal&url=http://ccci.netlify.com/&via=WATZILEI)
 
 ---------------------
-![](images/logo_easp.png)
- 
-![](images/logo_ibs.png)
 
-![](images/logo_feder.png)
+<img src="images/logo_easp.png" alt="logo" style="width: 80%;"/>
+
+<img src="images/logo_ibs.png" alt="logo" style="width: 80%;"/>
+
+<img src="images/logo_feder.png" alt="logo" style="width: 80%;"/>
