@@ -20,5 +20,5 @@ ignoreFiles     = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   googleAnalytics = ""
 
   name = ""
-  description = "Miguel Ángel Luque-Fernández <br> Daniel Redondo-Sánchez"
+  description = "Miguel Ángel Luque Fernández <br> María José Sánchez Pérez <br> Miguel Rodríguez Barranco <br> Daniel Redondo Sánchez"
   pageNotFoundTitle = "404 - Page not found"

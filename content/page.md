@@ -52,7 +52,7 @@ Participación en clase y prácticas.
 
 ## El enlace de inscripción estará disponible próximamente.
 
-El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP).
+El curso se llevará a cabo en la Escuela Andaluza de Salud Pública (EASP), situada en el Campus Universitario de Cartuja, Cuesta del Observatorio nº4, Granada.
 
 ## Cómo llegar:
 
@@ -110,11 +110,11 @@ Lab 2
 
 ---------------------
 
-# Profesores
+# Profesorado
 
-We are a team with a broad multidisciplinary background in social sciences, mathematics, biostatiscis and epidemiology, leading cancer research in Spain and Europe.
+Somos un equipo con amplios antecedentes multidisciplinarios en Epidemiología, Bioestadística, Matemáticas y Ciencias Sociales, liderando la investigación del cáncer en España y Europa.
 
-We develop our work in the [**Granada Cancer Registry**](http://www.cancergranada.org), at the [**Andalusian School of Public Health**](http://www.easp.es/).
+Desarrollamos nuestro trabajo en el [**Registro de Cáncer de Granada**](http://www.cancergranada.org), en la [**Escuela Andaluza de Salud Pública**](http://www.easp.es/).
 
 ![](images/logo_MALF.png)
 
@@ -145,9 +145,39 @@ Tutorials [Link to Epidemiological and Statistical tutorials](http://migariane.g
 
 ---------------------
 
+<img src="images/logo_MJSP.jpg" alt="MJSP" style="width: 100px;"/> 
+
+### **María José Sánchez Pérez, MD, PhD**
+
+Directora del Registro de Cáncer de Granada.
+
+Escuela Andaluza de Salud Pública  
+Cuesta del Observatorio, 4, 18080  
+Granada, Spain
+
+### <img src="images/tw.png" alt="twitter" style="width: 20px;"/> [@mjsanchezperez](http://www.twitter.com/mjsanchezperez)
+
+### <img src="images/email.png" alt="email" style="width: 20px;"/>  *mariajose.sanchez.easp at juntadeandalucia.es*
+
+---------------------
+
+<img src="images/logo_MRB.jpg" alt="MRB" style="width: 100px;"/> 
+
+### **Miguel Rodríguez Barranco, Estadístico, PhD**
+
+Coordinador de Investigación del Registro de Cáncer de Granada.
+
+Escuela Andaluza de Salud Pública  
+Cuesta del Observatorio, 4, 18080  
+Granada, Spain
+
+### <img src="images/email.png" alt="email" style="width: 20px;"/>  *miguel.rodriguez.barranco.easp at juntadeandalucia.es*
+
+---------------------
+
 ![](images/logo_DRS.png)
 
-### **Daniel Redondo Sánchez, Mathematician**
+### **Daniel Redondo Sánchez, Matemático**
 
 Research Assistant of Epidemiology and Biostatistics.
 
@@ -166,8 +196,8 @@ Granada, Spain
 [<img src="/img/tw.png">](https://twitter.com/intent/tweet?text=Curso%20de%20Introduccion%20a%20la%20Inferencia%20Causal&url=http://ccci.netlify.com/&via=WATZILEI)
 
 ---------------------
-![](images/logo_ibs.png)
- 
 ![](images/logo_easp.png)
+ 
+![](images/logo_ibs.png)
 
 ![](images/logo_feder.png)
