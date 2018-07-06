@@ -101,6 +101,7 @@ Presentación 3
 
 ### Prácticas (Lab)  
 Lab 2   
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Labs/Lab2.pdf')">Descargar</button>
 
 ## Recurso para aprender Stata    
 [Learning Stata](https://www.stata.com/learn/)  
