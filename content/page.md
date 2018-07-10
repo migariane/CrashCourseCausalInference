@@ -90,18 +90,23 @@ Presentación 2
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day1_2.pdf')">Descargar</button>  
 ### Prácticas (Lab)    
 Lab 1
+<!---
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Labs/Lab1.pdf')">Descargar</button>
-
+--->
 
 ## Día 2  
 
 ### Presentaciones  
 Presentación 3
+<!---
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day2.pdf')">Descargar</button>
+--->
 
 ### Prácticas (Lab)  
 Lab 2   
+<!---
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Labs/Lab2.pdf')">Descargar</button>
+--->
 
 ## Recurso para aprender Stata    
 [Learning Stata](https://www.stata.com/learn/)  
@@ -159,20 +164,6 @@ Granada, Spain
 ### <img src="images/tw.png" alt="twitter" style="width: 20px;"/> [@mjsanchezperez](http://www.twitter.com/mjsanchezperez)
 
 ### <img src="images/email.png" alt="email" style="width: 20px;"/>  *mariajose.sanchez.easp at juntadeandalucia.es*
-
----------------------
-
-<img src="images/logo_MRB.jpg" alt="MRB" style="width: 100px;"/> 
-
-### **Miguel Rodríguez Barranco, Estadístico, PhD**
-
-Coordinador de Investigación del Registro de Cáncer de Granada.
-
-Escuela Andaluza de Salud Pública  
-Cuesta del Observatorio, 4, 18080  
-Granada, Spain
-
-### <img src="images/email.png" alt="email" style="width: 20px;"/>  *miguel.rodriguez.barranco.easp at juntadeandalucia.es*
 
 ---------------------
 
