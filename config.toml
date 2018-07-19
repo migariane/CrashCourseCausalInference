@@ -8,7 +8,7 @@ ignoreFiles     = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   title       = "Curso de Introducción a la Inferencia Causal en Epidemiología"
-  subtitle    = "29-30 Octubre,<br>Escuela Andaluza de Salud Pública, Granada"
+  subtitle    = "Miguel Ángel Luque Fernández"
   copyright   = "Released under the MIT license."
   authorImage = "logo.png"
 
@@ -20,5 +20,5 @@ ignoreFiles     = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   googleAnalytics = "UA-121938065-1"
 
   name = ""
-  description = "Miguel Ángel Luque Fernández"
+  description = "Fecha por determinar<br>Lugar por determinar"
   pageNotFoundTitle = "404 - Page not found"
