@@ -1,9 +1,8 @@
 ---
 type: "onepage"
 ---
+
 # Curso de Introducción a la Inferencia Causal en Epidemiología
-### Fecha por determinar
-### Lugar por determinar
 
 ---------------------
 
@@ -51,7 +50,7 @@ Participación en clase y prácticas.
 
 # Inscripción
 
-## El enlace de inscripción estará disponible próximamente
+### El enlace de inscripción estará disponible próximamente.
 
 ---------------------
 
@@ -111,7 +110,7 @@ Lab 2
 
 Somos un equipo con amplios antecedentes multidisciplinarios en Epidemiología, Bioestadística, Matemáticas y Ciencias Sociales, liderando la investigación del cáncer en España y Europa.
 
-Desarrollamos nuestro trabajo en el [**Registro de Cáncer de Granada**](http://www.cancergranada.org), en la [**Escuela Andaluza de Salud Pública**](http://www.easp.es/).
+Desarrollamos nuestro trabajo en el [**Registro de Cáncer de Granada**](http://www.cancergranada.org), en el [**Instituto de Investigación Biosanitaria de Granada (ibs.Granada)**](http://www.ibsgranada.es/).
 
 ![](images/logo_MALF.png)
 
@@ -139,36 +138,6 @@ Tutorials [Link to Epidemiological and Statistical tutorials](http://migariane.g
 ### <img src="images/git.jpg" alt="git" style="width: 20px;"/>  [@migariane](https://github.com/migariane)
 
 ### <img src="images/email.png" alt="email" style="width: 20px;"/>  *miguel.luque.easp at juntadeandalucia.es*
-
----------------------
-
-<img src="images/logo_MJSP.jpg" alt="MJSP" style="width: 100px;"/> 
-
-### **María José Sánchez Pérez, MD, PhD**
-
-Directora del Registro de Cáncer de Granada.
-
-Escuela Andaluza de Salud Pública  
-Cuesta del Observatorio, 4, 18080  
-Granada, Spain
-
-### <img src="images/tw.png" alt="twitter" style="width: 20px;"/> [@mjsanchezperez](http://www.twitter.com/mjsanchezperez)
-
-### <img src="images/email.png" alt="email" style="width: 20px;"/>  *mariajose.sanchez.easp at juntadeandalucia.es*
-
----------------------
-
-<img src="images/logo_MRB.jpg" alt="MRB" style="width: 100px;"/> 
-
-### **Miguel Rodríguez Barranco, Estadístico, PhD**
-
-Coordinador de Investigación del Registro de Cáncer de Granada.
-
-Escuela Andaluza de Salud Pública  
-Cuesta del Observatorio, 4, 18080  
-Granada, Spain
-
-### <img src="images/email.png" alt="email" style="width: 20px;"/>  *miguel.rodriguez.barranco.easp at juntadeandalucia.es*
 
 ---------------------
 
