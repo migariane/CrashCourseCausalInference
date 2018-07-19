@@ -163,8 +163,6 @@ Granada, Spain
 
 ---------------------
 
-<img src="images/logo_easp.png" alt="logo" style="width: 80%;"/>
-
 <img src="images/logo_ibs.png" alt="logo" style="width: 80%;"/>
 
 <img src="images/logo_feder.png" alt="logo" style="width: 80%;"/>
