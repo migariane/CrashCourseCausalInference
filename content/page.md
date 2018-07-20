@@ -101,8 +101,8 @@ Lab 2
 ## Recurso para aprender Stata    
 [Learning Stata](https://www.stata.com/learn/)  
 
-## Recursos para aprender R  
-[Learning R (Tidyverse world)](https://www.tidyverse.org/learn/)  
+## Recurso para aprender R  
+[Learning R (tidyverse world)](https://www.tidyverse.org/learn/)  
 
 ---------------------
 
@@ -151,11 +151,11 @@ Biomedical Research Institute of Granada, Andalusian School of Public Health.
 Cuesta del Observatorio, 4, 18080  
 Granada, Spain
 
-### <img src="images/tw.png" alt="twitter" style="width: 20px;"/> [@dredondosanchez](http://www.twitter.com/dredondosanchez)
+### <img src="images/tw.png" alt="twitter" style="width:20px"/> [@dredondosanchez](http://www.twitter.com/dredondosanchez)
 
-### <img src="images/git.jpg" alt="git" style="width: 20px;"/> [@danielredondo](https://github.com/danielredondo)
+### <img src="images/git.jpg" alt="git" style="width:20px"/> [@danielredondo](https://github.com/danielredondo)
 
-### <img src="images/email.png" alt="email" style="width: 20px;"/>  *daniel.redondo.easp at juntadeandalucia.es*
+### <img src="images/email.png" alt="email" style="width:20px"/>  *daniel.redondo.easp at juntadeandalucia.es*
 
 ---------------------
 
