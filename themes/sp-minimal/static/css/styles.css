@@ -2,7 +2,7 @@ body {
   background-color: #fff;
   padding:50px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#595959;
+  color:#000000;
   font-weight:400;
 }
 
@@ -25,12 +25,12 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#000000;
   font-weight: 500;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#000000;
   font-weight: 500;
 }
 
@@ -182,7 +182,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#000000;
   height:1px;
   margin:0 0 20px;
 }

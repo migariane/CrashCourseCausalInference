@@ -10,6 +10,7 @@ type: "onepage"
 
 El Curso de Introducción a la Inferencia Causal en Epidemiología está dirigido a **estadísticos** y **epidemiólogos** de la administración sanitaria interesados en la Inferencia Causal, con conocimientos en **Estadística Aplicada a las Ciencias de la Salud y Epidemiología**.
 
+
 ## Objetivos
 
 El objetivo general del curso es ofrecer una visión general de los nuevos métodos en epidemiología basados en el marco conceptual de las "*Potential Outcomes*" y las técnicas estadísticas utilizadas para evaluar la efectividad de intervenciones o tratamientos basada en datos observacionales.
@@ -42,9 +43,13 @@ El alumno a la finalización del curso será capaz de:
 2. Aplicar e interpretar la "*G-Formula*".
 3. Aplicar e interpretar métodos de inferencia causal en estudios observacionales transversales.
 
+<!---
+
 ## Sistema de evaluación
 
 Participación en clase y prácticas.
+
+--->
 
 ---------------------
 
@@ -54,14 +59,28 @@ Participación en clase y prácticas.
 
 ---------------------
 
-# Material del curso
+# Material
 
-<!---
+Los asistentes deberán de llevar su computadora con *RStudio* instalado.
 
-## Programa del curso
+Lectura recomendada:<br> 
+[*Educational Note: Paradoxical collider effect in the analysis of non-communicable disease epidemiological data: a reproducible illustration and web application*. Miguel Angel Luque-Fernandez, Michael Schomaker, Daniel Redondo-Sanchez, Maria Jose Sanchez Perez, Anand Vaidya, Mireille E Schnitzer. International Journal of Epidemiology.](https://academic.oup.com/ije/advance-article/doi/10.1093/ije/dyy275/5248195)
 
-<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Programa/programa.pdf')">Descarga aquí el programa del curso</button>
+---------------------
 
+# Programa
+
+#### 9:00 - 10:00<br> Introducción a las “Potential Outcomes” y el marco conceptual de la Inferencia Causal: Justificación basada en la implementación de la generalización de la estandarización: la Formula G y el estimando “ATE” (*Average Treatment Effect*).
+
+#### 10:00 - 10:15<br> Pequeño receso.
+
+#### 10:15 - 12:15<br> Asunciones de la inferencia causal aplicadas a los datos epidemiológicos observacionales y la necesidad de la introducción de los gráficos directos acíclicos (DAGs) para identificar variables confusoras, colliders y mediadoras: Introducción al efecto paradójico inducido por colliders: http://watzilei.com/shiny/collider/
+ 
+#### 12:15 - 12:30<br> Pequeño receso.
+
+#### 12:30 - 14:00<br> LAB: Ejemplos de gráficos directos acíclicos (DAGs) para identificar “unconfoundeness”, “exchangeability”, “conditional mean independence” o “randomization”: Introducción a *Daggity* y *ggdag*.
+
+<!--- 
 ## Lecturas preliminares
 
 1. Lectura 1: A structural approach to selection bias
@@ -74,6 +93,9 @@ Participación en clase y prácticas.
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/TMLE-Tutorial-Luque2018.pdf')">Descargar</button>
 5. Extra 2: Inferencia Causal aplicada a Epidemiología poblacional del Cáncer
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/TMLE_Application_Luque2017.pdf')">Descargar</button>
+--->
+
+<!---
 
 ## Día 1
 
@@ -96,13 +118,14 @@ Presentación 3
 ### Prácticas (Lab)  
 Lab 2   
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Labs/Lab2.pdf')">Descargar</button>
---->
+
 
 ## Recurso para aprender Stata    
 [Learning Stata](https://www.stata.com/learn/)  
 
 ## Recurso para aprender R  
 [Learning R (tidyverse world)](https://www.tidyverse.org/learn/)  
+--->
 
 ---------------------
 
@@ -135,7 +158,7 @@ Tutorials [Link to Epidemiological and Statistical tutorials](http://migariane.g
 
 ### <img src="images/tw.png" alt="twitter" style="width: 20px;"/> [@watzilei](http://www.twitter.com/watzilei)
 
-### <img src="images/git.jpg" alt="git" style="width: 20px;"/>  [@migariane](https://github.com/migariane)
+### <img src="images/git.png" alt="git" style="width: 20px;"/>  [@migariane](https://github.com/migariane)
 
 ### <img src="images/email.png" alt="email" style="width: 20px;"/>  *miguel.luque.easp at juntadeandalucia.es*
 
@@ -147,19 +170,19 @@ Tutorials [Link to Epidemiological and Statistical tutorials](http://migariane.g
 
 Research Assistant of Epidemiology and Biostatistics.
 
-Biomedical Research Institute of Granada, Andalusian School of Public Health.  
+ibs.GRANADA, Andalusian School of Public Health.  
 Cuesta del Observatorio, 4, 18080  
 Granada, Spain
 
 ### <img src="images/tw.png" alt="twitter" style="width:20px"/> [@dredondosanchez](http://www.twitter.com/dredondosanchez)
 
-### <img src="images/git.jpg" alt="git" style="width:20px"/> [@danielredondo](https://github.com/danielredondo)
+### <img src="images/git.png" alt="git" style="width:20px"/> [@danielredondo](https://github.com/danielredondo)
 
 ### <img src="images/email.png" alt="email" style="width:20px"/>  *daniel.redondo.easp at juntadeandalucia.es*
 
 ---------------------
 
-[<img src="/img/tw.png"  style = "width:40%;">](https://twitter.com/intent/tweet?text=Curso%20de%20Introduccion%20a%20la%20Inferencia%20Causal&url=http://ccci.netlify.com/&via=WATZILEI)
+[<img src="/img/tw.png"  style = "width:30%;">](https://twitter.com/intent/tweet?text=Curso%20de%20Introduccion%20a%20la%20Inferencia%20Causal&url=http://ccci.netlify.com/&via=WATZILEI)
 
 ---------------------
 

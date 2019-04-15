@@ -1,7 +1,7 @@
 baseurl         = "/"
 theme           = "sp-minimal"
 languageCode    = "en-us"
-title           = "Curso_IC"
+title           = "Curso Inferencia Causal"
 disqusShortname = ""
 paginate        = 5
 ignoreFiles     = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -20,5 +20,5 @@ ignoreFiles     = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   googleAnalytics = "UA-121938065-1"
 
   name = ""
-  description = "Fecha por determinar<br>Lugar por determinar"
+  description = "3 de septiembre, 2019<br>Facultad de Medicina y Ciencias de la Salud de Oviedo<br>Curso precongreso SEE"
   pageNotFoundTitle = "404 - Page not found"
