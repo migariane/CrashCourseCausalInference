@@ -131,7 +131,10 @@ Lab 2
 
 # Profesorado
 
-Somos un equipo con amplios antecedentes multidisciplinarios en Epidemiología, Bioestadística, Matemáticas y Ciencias Sociales, liderando la investigación del cáncer en España y Europa.
+Somos un equipo multidisciplinar con amplia experiencia profesional en Epidemiología y Métodos Epidemilógicos, Bioestadística e Inferencia Causal, Matemáticas, Ciencias Sociales y Ciencias de la Salud. Actualmente estamos trabajando en la promoción del movimiento de ciencia reproducible, epidemiologia poblacional del cáncer (estudiando las desigualdades sociodemográficas en la incidencia, mortalidad y supervivencia del cáncer en España), machine learning e inferencia causal aplicada al estudio del cáncer desde una perspectiva poblacional. Algunos ejemplos de nuestros trabajos se pueden encontrar en los siguientes links:  
+
+1. http://watzilei.com/shiny/collider/  
+2. http://watzilei.com/shiny/CoMCoR/  
 
 Desarrollamos nuestro trabajo en el [**Registro de Cáncer de Granada**](http://www.cancergranada.org), en el [**Instituto de Investigación Biosanitaria de Granada (ibs.Granada)**](http://www.ibsgranada.es/).
 
@@ -145,8 +148,8 @@ Cuesta del Observatorio, 4, 18080
 Granada, Spain    
 [Hugo Academic Webpage](http://watzilei.com/maluque.html)  
 
-Visitor Scientist, Department of Epidemiology,    
-TH Chan Harvard School of Public Health, Boston, MA, U.S.A.     
+Scientific Collaborator, Department of Epidemiology,    
+Harvard TH Chan School of Public Health, Boston, MA, U.S.A.     
 [HSPH Webpage](https://scholar.harvard.edu/malf)      
  
 Assistant Professor of Epidemiology and Biostatistics (Honorary)   

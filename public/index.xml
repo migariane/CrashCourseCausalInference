@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Curso Inferencia Causal</title>
+    <title>Curso de Introducción a la Inferencia Causal en Epidemiología</title>
     <link>/</link>
-    <description>Recent content on Curso Inferencia Causal</description>
+    <description>Recent content on Curso de Introducción a la Inferencia Causal en Epidemiología</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Released under the MIT license.</copyright>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
