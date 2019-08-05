@@ -128,11 +128,11 @@ Lab 2
 --->
 ----------------------
 ## Recursos para aprender Stata    
-[Learning Stata](https://www.stata.com/learn/)  
+[Learning Stata](https://www.stata.com/learn/)    
 
 ## Recursos para aprender R  
-[Learning R (tidyverse world)](https://www.tidyverse.org/learn/) 
-[Learning R (tidyverse workshop)](https://tidy-ds.wjakethompson.com/)
+[Learning R (tidyverse world)](https://www.tidyverse.org/learn/)   
+[Learning R (tidyverse workshop)](https://tidy-ds.wjakethompson.com/)  
 
 ---------------------
 # Profesorado
