@@ -149,9 +149,8 @@ Actualmente desarrollamos nuestro trabajo en el [**Instituto de Investigación B
 
 ### **Miguel Ángel Luque Fernández, MA, MPH, MSc, PhD**
 Senior Scientific Researcher of Epidemiology and Biostatistics  
-Miguel Servet I Award, Carlos III Institute of Health Grant/Award Number: CP17/002026  
-Ibs.Granada, Andalusian School of Public Health.  
-Cuesta del Observatorio, 4, 18080  
+Miguel Servet I Award, Carlos III Institute of Health Grant/Award Number: CP17/00206  
+Ibs.GRANADA, Andalusian School of Public Health.  
 Granada, Spain    
 [Hugo Academic Webpage](http://watzilei.com/maluque.html)  
 
