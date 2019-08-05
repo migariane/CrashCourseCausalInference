@@ -63,7 +63,7 @@ Participación en clase y prácticas.
 
 Los asistentes deberán de llevar su computadora con *RStudio* instalado.  
 
-Lecturas recomendada:<br> 
+Lecturas recomendadas:<br> 
 [*Educational Note: Paradoxical collider effect in the analysis of non-communicable disease epidemiological data: a reproducible illustration and web application*.](https://academic.oup.com/ije/advance-article/doi/10.1093/ije/dyy275/5248195)
 
 [Heterogeneidad en la estimacion de effectos causales: *HETMOR*](https://maluque.netlify.com/project/hetmor/)    
@@ -127,6 +127,9 @@ Lab 2
 
 --->
 ----------------------
+## Link to access the LABs en Rstudio Cloud
+[LABs in RStudio Cloud](https://rstudio.cloud/spaces/19488/project/434105)
+
 ## Recursos para aprender Stata    
 [Learning Stata](https://www.stata.com/learn/)    
 
