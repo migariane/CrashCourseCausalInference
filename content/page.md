@@ -55,16 +55,22 @@ Participación en clase y prácticas.
 
 # Inscripción
 
-### El enlace de inscripción estará disponible próximamente.
+[Inscripción: link to SEE-2019](https://www.reunionanualsee.org/index.php?go=pre_congreso)  
 
 ---------------------
 
 # Material
 
-Los asistentes deberán de llevar su computadora con *RStudio* instalado.
+Los asistentes deberán de llevar su computadora con *RStudio* instalado.  
 
-Lectura recomendada:<br> 
-[*Educational Note: Paradoxical collider effect in the analysis of non-communicable disease epidemiological data: a reproducible illustration and web application*. Miguel Angel Luque-Fernandez, Michael Schomaker, Daniel Redondo-Sanchez, Maria Jose Sanchez Perez, Anand Vaidya, Mireille E Schnitzer. International Journal of Epidemiology.](https://academic.oup.com/ije/advance-article/doi/10.1093/ije/dyy275/5248195)
+Lecturas recomendada:<br> 
+[*Educational Note: Paradoxical collider effect in the analysis of non-communicable disease epidemiological data: a reproducible illustration and web application*.](https://academic.oup.com/ije/advance-article/doi/10.1093/ije/dyy275/5248195)
+
+[Heterogeneidad en la estimacion de effectos causales: *HETMOR*](https://maluque.netlify.com/project/hetmor/)    
+
+[*TMLE* tutorial 2019 Rmarkdown](https://migariane.github.io/TMLE.nb.html) 
+
+[*TMLE* tutorial in Statistis in Medicine 2018](https://github.com/migariane/SIM-TMLE-tutorial)
 
 ---------------------
 
@@ -119,24 +125,25 @@ Presentación 3
 Lab 2   
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Labs/Lab2.pdf')">Descargar</button>
 
-
-## Recurso para aprender Stata    
+--->
+----------------------
+## Recursos para aprender Stata    
 [Learning Stata](https://www.stata.com/learn/)  
 
-## Recurso para aprender R  
-[Learning R (tidyverse world)](https://www.tidyverse.org/learn/)  
---->
+## Recursos para aprender R  
+[Learning R (tidyverse world)](https://www.tidyverse.org/learn/) 
+[Learning R (tidyverse workshop)](https://tidy-ds.wjakethompson.com/)
 
 ---------------------
-
 # Profesorado
 
 Somos un equipo multidisciplinar con amplia experiencia profesional en Epidemiología y Métodos Epidemilógicos, Bioestadística e Inferencia Causal, Matemáticas, Ciencias Sociales y Ciencias de la Salud. Actualmente estamos trabajando en la promoción del movimiento de ciencia reproducible, epidemiologia poblacional del cáncer (estudiando las desigualdades sociodemográficas en la incidencia, mortalidad y supervivencia del cáncer en España), machine learning e inferencia causal aplicada al estudio del cáncer desde una perspectiva poblacional. Algunos ejemplos de nuestros trabajos se pueden encontrar en los siguientes links:  
 
 1. http://watzilei.com/shiny/collider/  
 2. https://maluque.netlify.com/project/hetmor/  
+3. https://github.com/migariane/cvAUROC
 
-Desarrollamos nuestro trabajo en el [**Registro de Cáncer de Granada**](http://www.cancergranada.org), en el [**Instituto de Investigación Biosanitaria de Granada (ibs.Granada)**](http://www.ibsgranada.es/).
+Actualmente desarrollamos nuestro trabajo en el [**Instituto de Investigación Biosanitaria de Granada (ibs.Granada)**](http://www.ibsgranada.es/) y mantenemos colaboraciones con la London School of Hygiene and Tropical Medicine (UK) y la Escuela de Salud Pública de Harvard (USA).
 
 ![](images/logo_MALF.png)
 
