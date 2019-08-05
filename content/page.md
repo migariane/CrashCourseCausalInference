@@ -70,15 +70,15 @@ Lectura recomendada:<br>
 
 # Programa
 
-#### 9:00 - 10:00<br> Introducción a las “Potential Outcomes” y el marco conceptual de la Inferencia Causal: Justificación basada en la implementación de la generalización de la estandarización: la Formula G y el estimando “ATE” (*Average Treatment Effect*).
+#### 9:00 - 10:00<br> El marco conceptual de la Inferencia Causal: Introducción a las “Potential Outcomes”. Asunciones de la inferencia causal aplicadas a los datos epidemiológicos observacionales y la necesidad de la introducción de los gráficos directos acíclicos (DAGs) para identificar variables confusoras, colliders y mediadoras. Introducción al efecto paradójico inducido por colliders: http://watzilei.com/shiny/collider/
 
 #### 10:00 - 10:15<br> Pequeño receso.
 
-#### 10:15 - 12:15<br> Asunciones de la inferencia causal aplicadas a los datos epidemiológicos observacionales y la necesidad de la introducción de los gráficos directos acíclicos (DAGs) para identificar variables confusoras, colliders y mediadoras: Introducción al efecto paradójico inducido por colliders: http://watzilei.com/shiny/collider/
+#### 10:15 - 12:15<br> Asunciones de la inferencia causal aplicadas a los datos epidemiológicos observacionales. Estimación e Inferecia en el marco conceptual de la Inferencia Estadística Causal: Justificación de su aplicación basada en la implementación de la generalización de la estandarización. Presentación de la Fórmula G para el estimando “ATE” (*Average Treatment Effect*) e inferencia estadística usando G-computation e IPTW.
  
 #### 12:15 - 12:30<br> Pequeño receso.
 
-#### 12:30 - 14:00<br> LAB: Ejemplos de gráficos directos acíclicos (DAGs) para identificar “unconfoundeness”, “exchangeability”, “conditional mean independence” o “randomization”: Introducción a *Daggity* y *ggdag*.
+#### 12:30 - 14:00<br> LABs: Ejemplos de gráficos directos acíclicos (DAGs) para identificar “unconfoundeness”, “exchangeability”, “conditional mean independence” o “randomization”: Introducción a *Daggity* y *ggdag*.
 
 <!--- 
 ## Lecturas preliminares
