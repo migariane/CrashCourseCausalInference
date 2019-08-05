@@ -134,7 +134,7 @@ Lab 2
 Somos un equipo multidisciplinar con amplia experiencia profesional en Epidemiología y Métodos Epidemilógicos, Bioestadística e Inferencia Causal, Matemáticas, Ciencias Sociales y Ciencias de la Salud. Actualmente estamos trabajando en la promoción del movimiento de ciencia reproducible, epidemiologia poblacional del cáncer (estudiando las desigualdades sociodemográficas en la incidencia, mortalidad y supervivencia del cáncer en España), machine learning e inferencia causal aplicada al estudio del cáncer desde una perspectiva poblacional. Algunos ejemplos de nuestros trabajos se pueden encontrar en los siguientes links:  
 
 1. http://watzilei.com/shiny/collider/  
-2. http://watzilei.com/shiny/CoMCoR/  
+2. https://maluque.netlify.com/project/hetmor/  
 
 Desarrollamos nuestro trabajo en el [**Registro de Cáncer de Granada**](http://www.cancergranada.org), en el [**Instituto de Investigación Biosanitaria de Granada (ibs.Granada)**](http://www.ibsgranada.es/).
 
