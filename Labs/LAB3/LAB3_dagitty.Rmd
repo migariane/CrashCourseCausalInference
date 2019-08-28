@@ -56,7 +56,9 @@ ggdag_children(dag, "A", text_col = "black")
 
 # Identifying the minimal adjustment sets using DAGITTY:
 
-```{r}
+```{r, eval FALSE}
 ggdag_adjustment_set(dag, node_size = 14, text_col = "black") + 
   theme(legend.position = "bottom")
 ```
+
+![](/dagmset.png)
