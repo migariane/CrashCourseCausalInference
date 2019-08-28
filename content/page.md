@@ -107,6 +107,8 @@ Presentación 1
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/ICI-SEE-19_1.pdf')">Descargar</button>  
 Presentación 2
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/ICI-SEE-19_2.pdf')">Descargar</button>  
+Presentación 3 (LABs 3-4)
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Presentación_LAB3-4.pdf')">Descargar</button> 
 
 <!---
 ### Prácticas (Lab)    
