@@ -1,6 +1,6 @@
 # Crash Course Causal Inference (CCCI-2019)  
   
-Introduction to Causal Inference in Epidemilogy: A Crash Course in Spanish at the XXXVII annual conference of the Spanish Society of Epidemiology (SEE)   
+Introduction to Causal Inference in Epidemiology: A Crash Course in Spanish at the XXXVII annual conference of the Spanish Society of Epidemiology (SEE)   
 
 Oviedo 2-6 September 2019  
 
