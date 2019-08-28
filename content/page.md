@@ -138,6 +138,9 @@ Lab 2
 [Learning R (tidyverse world)](https://www.tidyverse.org/learn/)   
 [Learning R (tidyverse workshop)](https://tidy-ds.wjakethompson.com/)  
 
+## Link a la evaluación del curso
+[Evaluación](https://forms.gle/ZeiAQg58bfuYQ58F9)
+
 ---------------------
 # Profesorado
 
