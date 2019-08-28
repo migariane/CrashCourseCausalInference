@@ -1,6 +1,6 @@
 ---
 title: "Lab 3 - *DAGITTY*"
-author: "Miguel Angel Luque Fernandez & Daniel Redondo Sanchez"
+author: "Miguel Angel Luque Fernandez & Daniel Redondo Sánchez"
 date: "03-09-2019"
 output:
   html_document:
