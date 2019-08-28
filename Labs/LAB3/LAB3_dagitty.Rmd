@@ -1,0 +1,62 @@
+---
+title: "Lab 3 - *DAGITTY*"
+author: "Miguel Angel Luque Fernandez & Daniel Redondo Sanchez"
+date: "03-09-2019"
+output:
+  html_document:
+    highlight: tango
+    theme: united
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+  pdf_document:
+    toc: yes
+---
+
+
+# Web link to the software
+
+http://www.dagitty.net/dags.html
+
+# Installing dagitty development verison
+
+```{r, eval = FALSE}
+library(devtools)
+install_github("jtextor/dagitty/r")
+```
+
+# DAGITTY: Butterfly, or M-BIAS example: 
+```{r}
+library(dagitty)
+dag <- dagitty("dag {
+          A -> Y
+          W1 -> A
+          W0 -> W1
+          W0 -> Y
+          W1 -> W2
+          W3 -> W2
+          W3 -> Y
+               }")
+```
+
+```{r}
+plot(graphLayout(dag))
+exposures(dag) <- c("A")
+outcomes(dag) <- c("Y")
+```
+
+# Identifying parents and children
+
+```{r}
+library(ggdag)
+ggdag_parents(dag, "Y", text_col = "black")
+ggdag_children(dag, "A", text_col = "black")
+```
+
+# Identifying the minimal adjustment sets using DAGITTY:
+
+```{r}
+ggdag_adjustment_set(dag, node_size = 14, text_col = "black") + 
+  theme(legend.position = "bottom")
+```

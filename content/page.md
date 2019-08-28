@@ -13,20 +13,20 @@ El Curso de Introducción a la Inferencia Causal en Epidemiología está dirigid
 
 ## Objetivos
 
-El objetivo general del curso es ofrecer una visión general de los nuevos métodos en epidemiología basados en el marco conceptual de las "*Potential Outcomes*" y las técnicas estadísticas utilizadas para evaluar la efectividad de intervenciones o tratamientos basada en datos observacionales.
+El objetivo general del curso es ofrecer una visión general de los nuevos métodos en epidemiología basados en el marco conceptual de las "*Potential Outcomes*" y la "*Inferencia Causal*" utilizada para evaluar la efectividad de intervenciones o tratamientos basada en datos observacionales.
 
 Los objetivos específicos son:
 
-1. Obtener una visión general del desarrollo de la disciplina y la necesidad de la Inferencia Causal. 
+1. Obtener una visión general del desarrollo de la disciplina y la necesidad de la "*Inferencia Causal*". 
 2. Entender y aplicar el marco conceptual de las "*Potential Outcomes*" en escenarios simples.  
-3. Entender y construir modelos causales visuales usando gráficos acíclicos directos (DAGs).  
+3. Entender y construir modelos causales visuales usando "*gráficos acíclicos directos*" (DAGs).  
 4. Entender y aplicar los diferentes métodos estadísticos para evaluar el efecto causal marginal y estandarizado del tratamiento o exposición basado en la aplicación de la "*G-Formula*".
 
 ## Contenidos
 
 1. Introducción al marco conceptual de las "*Potential Outcomes*"  
-2. Introducción a la visualización de asociaciones y efectos causales usando DAGs (gráficos acíclicos directos)
-3. Introducción a los G-métodos y generalización de la estandarización.
+2. Introducción a la visualización de asociaciones y efectos causales usando "*DAGs*" (gráficos acíclicos directos)
+3. Introducción a los "*G-métodos*" y generalización de la estandarización.
 4. Derivación y uso de los G-métodos basados en el "*propensity score*" y la G-computación en **Stata** (módulo *teffect*) y **R** (paquetes *IPW* y *TMLE*).
 
 ## Metodología
@@ -80,11 +80,11 @@ Lecturas recomendadas:<br>
 
 #### 10:00 - 10:15<br> Pequeño receso.
 
-#### 10:15 - 12:15<br> Asunciones de la inferencia causal aplicadas a los datos epidemiológicos observacionales. Estimación e Inferecia en el marco conceptual de la Inferencia Estadística Causal: Justificación de su aplicación basada en la implementación de la generalización de la estandarización. Presentación de la Fórmula G para el estimando “ATE” (*Average Treatment Effect*) e inferencia estadística usando G-computation e IPTW.
+#### 10:15 - 12:15<br> Asunciones de la inferencia causal aplicadas a los datos epidemiológicos observacionales. Estimación e Inferecia en el marco conceptual de la Inferencia Estadística Causal: Justificación de su aplicación basada en la implementación de la generalización de la estandarización. Presentación de la Fórmula G para el estimando “ATE” (*Average Treatment Effect*) e inferencia estadística usando G-computation, IPTW y TMLE. LABS 1 y 2.
  
 #### 12:15 - 12:30<br> Pequeño receso.
 
-#### 12:30 - 14:00<br> LABs: Ejemplos de gráficos directos acíclicos (DAGs) para identificar “unconfoundeness”, “exchangeability”, “conditional mean independence” o “randomization”: Introducción a *Daggity* y *ggdag*.
+#### 12:30 - 14:00<br> LABs 3 y 4: Ejemplos de gráficos directos acíclicos (DAGs) para identificar “unconfoundeness”, “exchangeability”, “conditional mean independence” o “randomization”: Introducción a *Daggity* y *ggdag*.
 
 <!--- 
 ## Lecturas preliminares
@@ -101,15 +101,14 @@ Lecturas recomendadas:<br>
 <button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Lecturas/TMLE_Application_Luque2017.pdf')">Descargar</button>
 --->
 
-<!---
 
-## Día 1
-
-### Presentaciones  
+## Presentaciones  
 Presentación 1 
-<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day1_1.pdf')">Descargar</button>  
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/ICI-SEE-19_1.pdf')">Descargar</button>  
 Presentación 2
-<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/Day1_2.pdf')">Descargar</button>  
+<button onclick="window.open('https://github.com/migariane/CrashCourseCausalInference/raw/master/Slides/ICI-SEE-19_2.pdf')">Descargar</button>  
+
+<!---
 ### Prácticas (Lab)    
 Lab 1
 

@@ -1,0 +1,165 @@
+---
+title: "G-computation - LAB1"
+author: "Miguel Angel Luque-Fernandez"
+date: "September 3, 2019"
+output: html_notebook
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+```
+
+# Install packages (if needed)
+```{r}
+#install.packages("tableone")
+#install.packages("tmle")
+#install.packages("boot")
+```
+
+# Load packages
+```{r}
+library(tableone)
+library(tmle)
+library(boot)
+```
+
+# Read RHC data
+This dataset was used in Connors et al. (1996): The effectiveness of RHC in the initial care of critically ill patients. J American Medical Association 276:889-897. The dataset pertains to day 1 of hospitalization, i.e., the "treatment" variable swang1 is whether or not a patient received a RHC (also called the Swan-Ganz catheter) on the first day in which the patient qualified for the SUPPORT study (see above). The dataset is suitable for use in papers submitted in response to the call for papers on causal inference, by the journal Health Services and Outcomes Research Methodology. The original analysis by Connors et al. used binary logistic model to develop a propensity score that was then used for matching RHC patients with non-RHC patients. A sensitivity analysis was also done. The results provided some evidence that patients receiving RHC had decreased survival time, and the sensitivity analysis indicated that any unmeasured confounder would have to be somewhat strong to explain away the results. See Lin DY, Psaty BM, Kronmal RA (1998): Assessing the sensitivity of regression results to unmeasured confounders in observational studies. Biometrics 54:948-963 for useful methods for sensitivity analysis, one of which was applied to the RHC results. 
+
+http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.html
+
+```{r}
+load(url("http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.sav"))
+```
+
+# View RHC data
+
+```{r}
+View(rhc)
+```
+
+* treatment variables is swang1
+* cat1: primary disease category
+* age
+* sex
+* aps1: APACHE score
+* meanbp1: mean blood pressure
+
+# Create a data set with just these variables, for simplicity 
+```{r}
+ARF<-as.numeric(rhc$cat1=='ARF') # Accute Renal Failure
+CHF<-as.numeric(rhc$cat1=='CHF') # Congestive Heart Failure
+Cirr<-as.numeric(rhc$cat1=='Cirrhosis')
+colcan<-as.numeric(rhc$cat1=='Colon Cancer')
+Coma<-as.numeric(rhc$cat1=='Coma')
+COPD<-as.numeric(rhc$cat1=='COPD')
+lungcan<-as.numeric(rhc$cat1=='Lung Cancer')
+MOSF<-as.numeric(rhc$cat1=='MOSF w/Malignancy')
+sepsis<-as.numeric(rhc$cat1=='MOSF w/Sepsis')
+female<-as.numeric(rhc$sex=='Female')
+died<-as.integer(rhc$death=='Yes')
+age<-rhc$age
+treatment<-as.numeric(rhc$swang1=='RHC')
+meanbp1<-rhc$meanbp1
+```
+
+# The new dataset
+```{r}
+mydata<-cbind(ARF,CHF,Cirr,colcan,Coma,lungcan,MOSF,sepsis,
+              age,female,meanbp1,treatment,died)
+mydata<-data.frame(mydata)
+```
+
+# Covariates (W) we will use (shorter list than you would use in practice)
+
+```{r}
+wvars<-c("age","female","meanbp1","ARF","CHF","Cirr","colcan",
+         "Coma","lungcan","MOSF","sepsis")
+```
+
+# Look at a table 1
+```{r}
+table1<- CreateTableOne(vars=wvars, strata = "treatment", data = mydata, test = FALSE)
+```
+
+# Include standardized mean difference (SMD)
+
+```{r}
+print(table1,smd=TRUE)
+```
+
+# G-Formula implemented via computation with Regression Adjustment (RA)
+```{r}
+mod1  <- glm(died ~  age + female + meanbp1 + ARF + CHF + Cirr + colcan +
+         Coma + lungcan + MOSF + sepsis, family="binomial", data=mydata[mydata$treatment==1,])
+         
+mod0  <- glm(died  ~  age + female + meanbp1 + ARF + CHF + Cirr + colcan +
+         Coma + lungcan + MOSF + sepsis, family="binomial", data=mydata[mydata$treatment==0,])
+         
+wvars2 <-subset(mydata, select=c(wvars))
+
+PORA  <- cbind(Y1 = predict(mod1, newdata=data.frame(treatment = 1, wvars2), type="response"),
+               Y0 = predict(mod0, newdata=data.frame(treatment = 0, wvars2), type="response"))
+               
+RAPO <- as.data.frame(PORA)
+Y.1 <- RAPO$Y1
+Y.0 <- RAPO$Y0
+```
+
+# G-computation ATE (95%CI Bootstraping?)
+```{r}
+RApsi <- mean((Y.1) - (Y.0), na.rm=TRUE); RApsi
+```
+
+# Bootstrapping the G-comp esitmator
+# G-computation wrapper function for the ATE
+```{r}
+attach(mydata)
+g.comp.ate=function(mydata,indices)
+{
+  dat=mydata[indices,]
+  glm1  <- glm(died ~  age + female + meanbp1 + ARF + CHF + Cirr + colcan +
+         Coma + lungcan + MOSF + sepsis, family="binomial", data=dat[dat$treatment==1,])
+  glm2  <- glm(died  ~  age + female + meanbp1 + ARF + CHF + Cirr + colcan +
+         Coma + lungcan + MOSF + sepsis, family="binomial", data=dat[dat$treatment==0,])
+  Y.1 = predict(glm1, newdata=data.frame(treatment = 1, wvars2), type="response")
+  Y.0 = predict(glm2, newdata=data.frame(treatment = 0, wvars2), type="response")
+  mean((Y.1) - mean(Y.0))
+}
+# Can get original estimate, by plugging in indices 1:n
+g.comp.ate(mydata,indices=1:nrow(mydata))
+# Draw 500 bootstrap sample estimates of RD
+boot.out.ate=boot(mydata,g.comp.ate,500)
+# compute confidence intervals using percentile method
+boot.ci(boot.out.ate,type="perc",conf=0.95)
+boot.ci(boot.out.ate,type="norm",conf=0.95)
+```
+
+# G-computation wrapper function for the CRR
+```{r}
+g.comp.crr=function(mydata,indices)
+{
+  dat=mydata[indices,]
+  glm1  <- glm(died ~  age + female + meanbp1 + ARF + CHF + Cirr + colcan +
+         Coma + lungcan + MOSF + sepsis, family="binomial", data=dat[dat$treatment==1,])
+  glm2  <- glm(died  ~  age + female + meanbp1 + ARF + CHF + Cirr + colcan +
+         Coma + lungcan + MOSF + sepsis, family="binomial", data=dat[dat$treatment==0,])
+  Y.1 = predict(glm1, newdata=data.frame(treatment = 1, wvars2), type="response")
+  Y.0 = predict(glm2, newdata=data.frame(treatment = 0, wvars2), type="response")
+  mean((Y.1) / mean(Y.0))
+}
+# Can get original estimate, by plugging in indices 1:n
+g.comp.crr(mydata,indices=1:nrow(mydata))
+# Draw 500 bootstrap sample estimates of RD
+boot.out.crr=boot(mydata,g.comp.crr,500)
+# compute confidence intervals using percentile method
+boot.ci(boot.out.crr,type="perc",conf=0.95)
+boot.ci(boot.out.crr,type="norm",conf=0.95)
+```
+
+# Extra: use TMLE for ATE and CRR
+```{r}
+set.seed(7777)
+tmle <- tmle(mydata$died, mydata$treatment, famil='binomial', W=wvars2); tmle
+```
+

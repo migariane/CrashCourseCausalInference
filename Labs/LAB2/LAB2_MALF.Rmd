@@ -1,0 +1,177 @@
+---
+title: "IPTW - LAB2"
+author: "Miguel Angel Luque-Fernandez"
+date: "September 3, 2019"
+output: html_notebook
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+```
+
+# Install packages (if needed)
+```{r}
+#install.packages("tableone")
+#install.packages("ipw")
+#install.packages("sandwich")
+#install.packages("survey")
+```
+
+# Load packages
+```{r}
+library(tableone)
+library(ipw)
+library(sandwich) #for robust variance estimation
+library(survey)
+```
+
+# Expit (Probabilty) and logit (log OR) functions 
+```{r}
+expit <- function(x) {1/(1+exp(-x)) }
+logit <- function(p) {log(p)-log(1-p)}
+```
+
+# Read RHC data
+This dataset was used in Connors et al. (1996): The effectiveness of RHC in the initial care of critically ill patients. J American Medical Association 276:889-897. The dataset pertains to day 1 of hospitalization, i.e., the "treatment" variable swang1 is whether or not a patient received a RHC (also called the Swan-Ganz catheter) on the first day in which the patient qualified for the SUPPORT study (see above). The dataset is suitable for use in papers submitted in response to the call for papers on causal inference, by the journal Health Services and Outcomes Research Methodology. The original analysis by Connors et al. used binary logistic model to develop a propensity score that was then used for matching RHC patients with non-RHC patients. A sensitivity analysis was also done. The results provided some evidence that patients receiving RHC had decreased survival time, and the sensitivity analysis indicated that any unmeasured confounder would have to be somewhat strong to explain away the results. See Lin DY, Psaty BM, Kronmal RA (1998): Assessing the sensitivity of regression results to unmeasured confounders in observational studies. Biometrics 54:948-963 for useful methods for sensitivity analysis, one of which was applied to the RHC results. 
+
+http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.html
+
+```{r}
+load(url("http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.sav"))
+```
+
+# View RHC data
+
+```{r}
+View(rhc)
+```
+
+* treatment variables is swang1
+* cat1: primary disease category
+* age
+* sex
+* aps1: APACHE score
+* meanbp1: mean blood pressure
+
+# Create a data set with just these variables, for simplicity 
+
+```{r}
+ARF<-as.numeric(rhc$cat1=='ARF') # Accute Renal Failure
+CHF<-as.numeric(rhc$cat1=='CHF') # Congestive Heart Failure
+Cirr<-as.numeric(rhc$cat1=='Cirrhosis')
+colcan<-as.numeric(rhc$cat1=='Colon Cancer')
+Coma<-as.numeric(rhc$cat1=='Coma')
+COPD<-as.numeric(rhc$cat1=='COPD')
+lungcan<-as.numeric(rhc$cat1=='Lung Cancer')
+MOSF<-as.numeric(rhc$cat1=='MOSF w/Malignancy')
+sepsis<-as.numeric(rhc$cat1=='MOSF w/Sepsis')
+female<-as.numeric(rhc$sex=='Female')
+died<-as.integer(rhc$death=='Yes')
+age<-rhc$age
+treatment<-as.numeric(rhc$swang1=='RHC')
+meanbp1<-rhc$meanbp1
+```
+
+# The new dataset
+```{r}
+mydata<-cbind(ARF,CHF,Cirr,colcan,Coma,lungcan,MOSF,sepsis,
+              age,female,meanbp1,treatment,died)
+mydata<-data.frame(mydata)
+```
+
+# Covariates (W) we will use (shorter list than you would use in practice)
+
+```{r}
+wvars<-c("age","female","meanbp1","ARF","CHF","Cirr","colcan",
+         "Coma","lungcan","MOSF","sepsis")
+```
+
+# Look at a table 1
+```{r}
+table1<- CreateTableOne(vars=wvars, strata = "treatment", data = mydata, test = FALSE)
+```
+
+# Include standardized mean difference (SMD)
+
+```{r}
+print(table1,smd=TRUE)
+```
+
+# Propensity score model (PS)
+
+```{r}
+psmodel <- glm(treatment ~ age + female + meanbp1+ARF+CHF+Cirr+colcan+
+                 Coma+lungcan+MOSF+sepsis,
+               family  = binomial(link ="logit"))
+```
+
+# Value of propensity score for each subject
+```{r}
+ps <-predict(psmodel, type = "response")
+```
+
+# Create weights (ITPW)
+```{r}
+weight<-ifelse(treatment==1,1/(ps),1/(1-ps))
+```
+
+# Apply weights to data (Thompson and Horvitz weight)
+```{r}
+weighteddata <- svydesign(ids = ~ 1, data =mydata, weights = ~ weight)
+```
+
+# Weighted table 1
+```{r}
+weightedtable <-svyCreateTableOne(vars = wvars, strata = "treatment", 
+                                  data = weighteddata, test = FALSE)
+```
+
+# Show table with SMD
+```{r}
+print(weightedtable, smd = TRUE)
+```
+
+# To get a weighted mean for a single covariate directly:
+```{r}
+mean(weight[treatment==1]*age[treatment==1])/(mean(weight[treatment==1]))
+```
+
+# Causal risk difference (ATE or RD)
+```{r}
+rd <- glm(died ~ treatment, weights=weight, family = quasibinomial(link="identity"))
+```
+
+# Summary(rd object)
+```{r}
+betaiptw <- coef(rd)
+se <- sqrt(diag(vcovHC(rd, type="HC0")))
+
+causalrd <- (betaiptw[2])
+lcl <- (betaiptw[2]-1.96*se[2])
+ucl <- (betaiptw[2]+1.96*se[2])
+c(lcl, causalrd, ucl)
+```
+
+# Causal relative risk (CRR). Weighted GLM
+```{r}
+cr <- glm(died ~ treatment, weights = weight, family = quasibinomial(link = log))
+```
+
+# Summary(cr object)
+```{r}
+betaiptw<-coef(cr)
+```
+
+# To properly account for weighting, use asymptotic (sandwich) variance
+```{r}
+secr <- sqrt(diag(vcovHC(cr, type="HC0")))
+```
+
+# Get point estimate and CI for relative risk (need to exponentiate)
+```{r}
+causalrr <- exp(betaiptw[2])
+lcl<-exp(betaiptw[2]-1.96*secr[2])
+ucl<-exp(betaiptw[2]+1.96*secr[2])
+c(lcl, causalrr, ucl)
+```
+
