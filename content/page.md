@@ -143,7 +143,7 @@ Lab 2
 
 ## Comparte el curso con otros
 
-<a href="https://twitter.com/intent/tweet?button_hashtag=buttom&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-text="https://ccci.netlify.com/" data-related="watzilei" data-show-count="false">Tweet #buttom</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/intent/tweet?button_hashtag=buttom&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-text="https://ccci.netlify.com/" data-related="watzilei" data-show-count="false">Tweet </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---------------------
 # Profesorado
