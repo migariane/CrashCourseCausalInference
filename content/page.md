@@ -143,7 +143,7 @@ Lab 2
 
 ## Comparte el curso con otros
 
-<a href="https://twitter.com/intent/tweet?button_hashtag=buttom&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-text="https://ccci.netlify.com/" data-related="watzilei" data-show-count="false">Tweet </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[<img src="/img/tw.png"  style = "width:30%;">](https://twitter.com/intent/tweet?text=Curso%20de%20Introduccion%20a%20la%20Inferencia%20Causal&url=http://ccci.netlify.com/&via=WATZILEI)
 
 ---------------------
 # Profesorado
@@ -199,10 +199,6 @@ Granada, Spain
 ### <img src="images/git.png" alt="git" style="width:20px"/> [@danielredondo](https://github.com/danielredondo)
 
 ### <img src="images/email.png" alt="email" style="width:20px"/>  *daniel.redondo.easp at juntadeandalucia.es*
-
----------------------
-
-[<img src="/img/tw.png"  style = "width:30%;">](https://twitter.com/intent/tweet?text=Curso%20de%20Introduccion%20a%20la%20Inferencia%20Causal&url=http://ccci.netlify.com/&via=WATZILEI)
 
 ---------------------
 
