@@ -19,13 +19,13 @@ output:
 Hay dos opciones para descargar el paquete *ggdag*:
 
 ```{r, eval = FALSE}
-install.packages("ggdag")
+# install.packages("ggdag")
 ```
 
 o bien
 
 ```{r, eval = FALSE}
-devtools::install_github("malcolmbarrett/ggdag") 
+# devtools::install_github("malcolmbarrett/ggdag") 
 ```
 
 Desde *devtools* se instala la versión 0.1.5.9000. Desde CRAN, la versión es la 0.1.0. Recomiendo la instalación desde *devtools* por la mejora realizada en *theme_dag()*.
@@ -361,5 +361,21 @@ El resultado final es:
 
 ![](DAG.svg)
 
+
+# Ejercicio: Dibuja el siguiente DAG usando ggdag.
+
+```{r, echo = FALSE}
+dag <- tidy_dagitty(dagify(Y ~ A + W,
+                           W ~ A))
+dag$data$x    <- c(0, 0, 1,  2)
+dag$data$y    <- c(0, 0, 1,  0)
+dag$data$xend <- c(1, 2, 2, NA)
+dag$data$yend <- c(1, 0, 0, NA)
+ggplot(dag$data, aes(x = x, y = y, xend = xend, yend = yend))+
+    geom_dag_edges() +
+    geom_dag_node() +
+    geom_dag_text() +
+    theme_dag() 
+```
 
 

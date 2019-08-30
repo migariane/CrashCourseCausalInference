@@ -121,3 +121,13 @@ ggdag_adjustment_set(dag, node_size = 14, text_col = "black") +
 ```
 
 ![](dagmset.png)
+
+# Ejercicio:
+
+### 1. Dibuja el siguiente DAG usando DAGitty. SOD es la exposición, y SBP la variable resultado.
+
+![](DAG_ejercicio.svg)
+
+### 2. ¿Qué podríamos decir sobre PRO? ¿Y sobre AGE?
+
+### 3. ¿Por qué variables deberíamos ajustar?
